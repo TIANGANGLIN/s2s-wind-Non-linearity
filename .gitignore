@@ -1,0 +1,20 @@
+# /data/
+._*
+**/*.pyc
+**/*.nc
+**/*.grid
+**/*.idx
+*.py[cod]
+*$py.class
+.DS_Store
+.ipynb_checkpoints
+.vscode
+data/processed
+data/raw
+data/results/WithOptuna/CNN
+data/results/WithOptuna/MLR
+data/results/WithOptuna/skills
+data/results/WithOptuna/Train_Test_Data
+data/results/WithOptuna/y_fc_class
+data/results/WithOptuna/y_initial_class
+data/results/WithOptuna/y_hc_class
