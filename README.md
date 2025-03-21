@@ -47,6 +47,7 @@ pip install ecmwf-api-client
 
 # Install additional utilities
 pip install -U rich
+pip install -e .
 ```
 
 ## Model Architecture
@@ -56,10 +57,9 @@ The repository includes implementations of:
 - Stochastic versions of both models
 
 ## Usage
-pip install -e .
-
 ### 10m Wind Speed and Z500 Data Download
 Please refer to https://cds.climate.copernicus.eu/how-to-api to configure cdsapi
+
 Please refer to https://pypi.org/project/ecmwf-api-client/ to configure ecmwfapi
 
 ERA5 reanalysis data download:
