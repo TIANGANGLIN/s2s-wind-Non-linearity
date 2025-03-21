@@ -28,25 +28,24 @@ We recommend using conda to create a new environment and install the required pa
 conda create -n nonlinear python=3.9 -y
 conda activate nonlinear
 
-# Install numpy first (required by other packages)
 conda install numpy=1.20.3 -c conda-forge -y
 
-# Install deep learning frameworks and related packages
 conda install pytorch::pytorch torchvision torchaudio -c pytorch -y
 conda install pytorch-lightning=2.0.9 -c conda-forge -y
+pip install "pytorch-lightning[extra]"
 
-# Install optimization and machine learning packages
 conda install optuna=3.3.0 -c conda-forge -y
 conda install optuna-integration -c conda-forge -y
 conda install scikit-learn=0.24.2 -y
 
-# Install data handling packages
 conda install xarray=2022.3.0 -c conda-forge -y
 conda install -c conda-forge netcdf4 h5netcdf -y
+conda install pandas -y
+conda install cartopy -y
 pip install cfgrib 
 pip install ecmwf-api-client
-
-# Install additional utilities
+pip install cdsapi
+pip install pymp-pypi
 pip install -U rich
 pip install -e .
 ```
