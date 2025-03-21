@@ -6,6 +6,7 @@ This repository contains the official implementation of our paper "Improving sub
 
 ## Data Availability Notice
 While our research paper uses 100m wind speed data from ECMWF extended-range hindcasts (requiring institutional license), this repository provides example implementation using 100m wind speed data interpolated from 10m wind speed using the power law profile equation for demonstration purposes. This approach follows the 100m wind speed derivation method described in [1]. This allows users to test and understand the methodology while adhering to data licensing restrictions.
+
 [1] Cozian, Bastien, Corentin Herbert, and Freddy Bouchet. "Assessing the probability of extremely low wind energy production in Europe at sub-seasonal to seasonal time scales." Environmental Research Letters 19.4 (2024): 044046.
 
 ### Research Data Sources
@@ -112,6 +113,8 @@ python src/scripts/evaluation/evalute.py
 Please refer to visualization.ipynb
 
 ## Results
+⚠️ **Important Note**: The results presented here are based on 100-meter wind speed interpolated from 10-meter wind speed data, and therefore differ from the actual results shown in the published paper. 
+<!-- These interpolated results are provided for demonstration purposes only and should not be used for direct comparison with the paper's findings. -->
 
 ### Spatial averaged MSE, CRPS and SSR as a function of lead time
 
