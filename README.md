@@ -125,8 +125,7 @@ Please refer to visualization.ipynb
 </div>
 <p align="center"><i>The spatial mean of MSE, CRPS and SSR as a function of lead week across the Europe domain for U100 hindcasts from the ECMWF, the MLR, the CNN, the stochastic MLR and the stochastic CNN.</i></p>
 
-### Relativement improvements of MSE and CRPS at Week 3
-
+### Relative improvements of MSE and CRPS at Week 3
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="margin-bottom: 20px;">
